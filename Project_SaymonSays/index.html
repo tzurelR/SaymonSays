@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+<h1 class="mainTitle">Simon Says Game</h1>
+
+
+<div id="game">
+
+<div class="game-container">
+    <div class="button-container">
+        <div id="redBtn" class="button red"></div>
+        <audio id="1_audio" src="1.m4a"></audio>
+        <div id="greenBtn" class="button green"></div>
+        <audio id="2_audio" src="2.m4a"></audio>
+    </div>
+    <div class="button-container">
+        <div id="blueBtn" class="button blue"></div>
+        <audio id="3_audio" src="3.m4a"></audio>
+        <div id="yellowBtn" class="button yellow"></div>
+        <audio id="4_audio" src="4.m4a"></audio>
+    </div>
+</div>
+
+    <div class="line"></div>
+
+<div class="detailsContainer">
+
+    <div class="start">
+        <button class="startBtn">Start 🏁</button>
+    </div>
+
+    <div class="item-score">Score: 0</div>
+
+    <div class="item-level">Level📈: 0</div>
+
+    <div>
+        <p class="comments"></p>
+    </div>
+
+    <div class="timer">
+    <div class="item-timer">00 : 00</div>
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+<script async="async" src="saymonSaysJS.js"></script>
+</body>
+</html>
